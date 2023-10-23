@@ -1,34 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\S5468B\\Desktop\\Pluralsight\\app-banking\\app-banking\\app-banking\\app-banking.csproj": {}
+    "D:\\__Documents\\Github\\tsi\\app-banking\\Application-bachelor2023\\app-banking\\app-banking.csproj": {}
   },
   "projects": {
-    "C:\\Users\\S5468B\\Desktop\\Pluralsight\\app-banking\\app-banking\\app-banking\\app-banking.csproj": {
+    "D:\\__Documents\\Github\\tsi\\app-banking\\Application-bachelor2023\\app-banking\\app-banking.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\S5468B\\Desktop\\Pluralsight\\app-banking\\app-banking\\app-banking\\app-banking.csproj",
+        "projectUniqueName": "D:\\__Documents\\Github\\tsi\\app-banking\\Application-bachelor2023\\app-banking\\app-banking.csproj",
         "projectName": "app-banking",
-        "projectPath": "C:\\Users\\S5468B\\Desktop\\Pluralsight\\app-banking\\app-banking\\app-banking\\app-banking.csproj",
-        "packagesPath": "C:\\Users\\S5468B\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\S5468B\\Desktop\\Pluralsight\\app-banking\\app-banking\\app-banking\\obj\\",
+        "projectPath": "D:\\__Documents\\Github\\tsi\\app-banking\\Application-bachelor2023\\app-banking\\app-banking.csproj",
+        "packagesPath": "C:\\Users\\maksi\\.nuget\\packages\\",
+        "outputPath": "D:\\__Documents\\Github\\tsi\\app-banking\\Application-bachelor2023\\app-banking\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\S5468B\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\maksi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
