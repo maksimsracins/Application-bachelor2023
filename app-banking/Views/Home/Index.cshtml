@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = ViewBag.CurrentUser;
+}
+@model app_banking.ViewModels.UserAccountsViewModel
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    @foreach (var item in Model.Accounts)
+    {
+        <h1>@item.AccountNumber</h1>
+        <h2>@item.AccountCurrency</h2>
+        <h3>@item.AccountType</h3>
+        <h4>@item.User</h4>
+    }
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
