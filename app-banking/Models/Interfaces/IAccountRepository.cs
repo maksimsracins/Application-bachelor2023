@@ -3,9 +3,9 @@
     public interface IAccountRepository
     {
         IEnumerable<Account> GetAllAccounts { get; }
-        Account? AddAccount(Account account);
+        /*Account? AddAccount(Account account);
         Account UpdateAccount(Account account);
         Account DeleteAccount(Account account);
-        Account? GetAccountById(int id);
+        Account? GetAccountById(int id);*/
     }
 }

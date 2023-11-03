@@ -1,12 +1,27 @@
 using app_banking.Models;
 using app_banking.Models.Interfaces;
+using app_banking.Models.Repository;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Storage.Internal;
+using Org.BouncyCastle.Math.EC;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddScoped<IUserRepository, MockUserRepository>();
-builder.Services.AddScoped<IAccountRepository, MockAccountRepository>();
+/*builder.Services.AddScoped<IUserRepository, MockUserRepository>();
+builder.Services.AddScoped<IAccountRepository, MockAccountRepository>();*/
+
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 builder.Configuration.Bind("Project", new Config());
+
+builder.Services.AddDbContext<ApplicationContext>(options =>
+{
+
+    options.UseMySql(@Config.ConnectionString);
+});
+
 
 builder.Services.AddControllersWithViews();
 

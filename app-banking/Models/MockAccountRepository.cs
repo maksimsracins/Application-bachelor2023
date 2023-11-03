@@ -9,10 +9,10 @@ namespace app_banking.Models
         public IEnumerable<Account> GetAllAccounts =>
             new List<Account>
             {
-                new Account { Id = 1, AccountNumber="ABC", AccountType = "Saving", AccountCurrency = "EUR"},
-                new Account { Id = 2, AccountNumber="ABCD", AccountType = "Investment", AccountCurrency = "USD"},
-                new Account { Id = 3, AccountNumber="ABCDE", AccountType = "Pension", AccountCurrency = "NOK"},
-                new Account { Id = 4, AccountNumber="ABCDEF", AccountType = "Saving", AccountCurrency = "EUR"},
+                new Account { Id = 1, AccountNumber="ABC", AccountType = AccountType.CurrentAccount, AccountCurrency = "EUR"},
+                new Account { Id = 2, AccountNumber="ABCD", AccountType = AccountType.InvestmentAccount, AccountCurrency = "USD"},
+                new Account { Id = 3, AccountNumber="ABCDE", AccountType = AccountType.SavingAccount, AccountCurrency = "NOK"},
+                new Account { Id = 4, AccountNumber="ABCDEF", AccountType = AccountType.SavingAccount, AccountCurrency = "EUR"},
             };
 
         public Account? AddAccount(Account account)
