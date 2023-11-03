@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddScoped<IUserRepository, MockUserRepository>();
 builder.Services.AddScoped<IAccountRepository, MockAccountRepository>();
+builder.Configuration.Bind("Project", new Config());
 
 builder.Services.AddControllersWithViews();
 
