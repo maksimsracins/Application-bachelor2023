@@ -2,9 +2,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 @if (ViewBag.Title != null)
 {
-    <title>@ViewBag.Title</title>
+    <title>@Config.CompanyName</title>
 }
 else
 {
     <title>@ViewData["Title"] - "Bank System Management"</title>
+}
+@if (ViewBag.Description != null)
+{
+    <meta name="description" content="@ViewBag.Description" />
+}
+@if (ViewBag.Keywords != null)
+{
+    <meta name="keywords" content="@ViewBag.Keywords" />
 }
