@@ -1,0 +1,23 @@
+﻿<Properties StartupConfiguration="{3D5D8611-C65F-4517-9CFB-25524D2BF821}|app-banking">
+  <MonoDevelop.Ide.Workbench ActiveDocument="app-banking/Program.cs">
+    <Files>
+      <File FileName="app-banking/Program.cs" Line="16" Column="38" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="app-banking" expanded="True" selected="True">
+            <Node name="app-banking" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.app-banking PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

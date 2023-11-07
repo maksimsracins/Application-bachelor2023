@@ -17,7 +17,9 @@ namespace app_banking.Controllers
 
         public IActionResult ShowDepositList()
         {
-            UserAccountsViewModel model = new UserAccountsViewModel(_userRepository.GetAllUsers, _accountRepository.GetAllAccounts);
+            UserAccountsViewModel model = new UserAccountsViewModel(_userRepository.GetAllUsers,
+                _accountRepository.GetAllAccounts
+            );
             return View(model);
         }
     }

@@ -1,0 +1,5 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/AssemblyExplorer/XmlDocument/@EntryValue">&lt;AssemblyExplorer&gt;
+  &lt;Assembly Path="/Users/maksimsracins/.nuget/packages/pomelo.entityframeworkcore.mysql.design/1.1.2/lib/netstandard1.3/Pomelo.EntityFrameworkCore.MySql.Design.dll" /&gt;
+  &lt;Assembly Path="/Users/maksimsracins/.nuget/packages/mysql.data/8.0.11/lib/netcoreapp2.0/MySql.Data.dll" /&gt;
+&lt;/AssemblyExplorer&gt;</s:String></wpf:ResourceDictionary>

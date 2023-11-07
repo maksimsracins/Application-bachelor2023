@@ -1,12 +1,25 @@
 using app_banking.Models;
 using app_banking.Models.Interfaces;
+using app_banking.Models.Repository;
+using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddScoped<IUserRepository, MockUserRepository>();
-builder.Services.AddScoped<IAccountRepository, MockAccountRepository>();
+/*builder.Services.AddScoped<IUserRepository, MockUserRepository>();
+builder.Services.AddScoped<IAccountRepository, MockAccountRepository>();*/
+
+builder.Services.AddScoped<IAccountRepository, AccountRepository>();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+
 builder.Configuration.Bind("Project", new Config());
+
+builder.Services.AddDbContext<ApplicationContext>(options =>
+{
+    options.UseMySQL(@Config.ConnectionString);
+
+});
+
 
 builder.Services.AddControllersWithViews();
 

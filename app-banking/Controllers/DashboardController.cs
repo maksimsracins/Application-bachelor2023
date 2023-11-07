@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using app_banking.Models;
+using Microsoft.AspNetCore.Mvc;
 
 namespace app_banking.Controllers
 {

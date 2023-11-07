@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets/app-banking.bundle.scp.css"
     },
     {
+      "Id": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/assets/.DS_Store",
+      "PackagePath": "staticwebassets/assets/.DS_Store"
+    },
+    {
       "Id": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
@@ -15,6 +23,10 @@
     {
       "Id": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/lib/.DS_Store",
+      "PackagePath": "staticwebassets/lib/.DS_Store"
     },
     {
       "Id": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/lib/bootstrap/LICENSE",

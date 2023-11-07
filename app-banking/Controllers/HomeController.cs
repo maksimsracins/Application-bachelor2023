@@ -9,23 +9,30 @@ namespace app_banking.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IUserRepository userRepository;
-        private readonly IAccountRepository accountRepository;
+        private readonly IAccountRepository _accountRepository;
+        private readonly IUserRepository _userRepository;
 
-        public HomeController(IUserRepository userRepository, IAccountRepository accountRepository)
+        public HomeController(IUserRepository userRepository, 
+            IAccountRepository accountRepository)
         {
-            this.userRepository = userRepository;
-            this.accountRepository = accountRepository;
+            _userRepository = userRepository;
+            _accountRepository = accountRepository;
         }
 
         public IActionResult Index()
         {
             ViewBag.CurrentUser = "Maksims Racins";
-            UserAccountsViewModel model = new UserAccountsViewModel(userRepository.GetAllUsers, accountRepository.GetAllAccounts);
+            UserAccountsViewModel model = new UserAccountsViewModel(_userRepository.GetAllUsers, 
+                _accountRepository.GetAllAccounts);
             return View(model);
         }
 
-        public IActionResult Privacy()
+        public IActionResult UserProfile()
+        {
+            return View();
+        }
+
+        public IActionResult Contacts()
         {
             return View();
         }
