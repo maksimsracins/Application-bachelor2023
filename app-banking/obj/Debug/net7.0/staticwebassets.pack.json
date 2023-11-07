@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
+      "Id": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/lib/.DS_Store",
+      "PackagePath": "staticwebassets/lib/.DS_Store"
+    },
+    {
       "Id": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },

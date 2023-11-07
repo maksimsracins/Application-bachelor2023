@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DaLKyVT5nRr/pMbW3DXyBVD4QEsJcGTz4Z2I0hSPloY=",
+  "Hash": "9+fJH/Qa1NZxr/UFElHtb1ULntQPfjMMLfwo3eLg/N0=",
   "Source": "app-banking",
   "BasePath": "_content/app-banking",
   "Mode": "Default",
@@ -134,6 +134,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/js/site.js"
+    },
+    {
+      "Identity": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/lib/.DS_Store",
+      "SourceId": "app-banking",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/",
+      "BasePath": "_content/app-banking",
+      "RelativePath": "lib/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/lib/.DS_Store"
     },
     {
       "Identity": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
