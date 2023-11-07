@@ -2,8 +2,6 @@ using app_banking.Models;
 using app_banking.Models.Interfaces;
 using app_banking.Models.Repository;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Storage.Internal;
-using Org.BouncyCastle.Math.EC;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,8 +16,8 @@ builder.Configuration.Bind("Project", new Config());
 
 builder.Services.AddDbContext<ApplicationContext>(options =>
 {
+    options.UseMySQL(@Config.ConnectionString);
 
-    options.UseMySql(@Config.ConnectionString);
 });
 
 

@@ -7,6 +7,6 @@ public class ApplicationContext : DbContext
     public ApplicationContext(DbContextOptions<ApplicationContext> options) : base(options)
     {
     }
-    public DbSet<Account> Accounts { get; set; }
-    public DbSet<User> Users { get; set; }
+    public DbSet<Account> Account { get; set; }
+    public DbSet<User> User { get; set; }
 }

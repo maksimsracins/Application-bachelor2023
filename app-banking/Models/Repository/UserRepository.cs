@@ -15,7 +15,7 @@ public class UserRepository : IUserRepository
     {
         get
         {
-            return _applicationContext.Users.ToList();
+            return _applicationContext.User;
         }
     }
 

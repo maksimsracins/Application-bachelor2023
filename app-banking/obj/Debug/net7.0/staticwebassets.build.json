@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "W3c/RfA6JuRST5mEkuPnnZAmDnFq8ENZJBHmXo4UcBM=",
+  "Hash": "DaLKyVT5nRr/pMbW3DXyBVD4QEsJcGTz4Z2I0hSPloY=",
   "Source": "app-banking",
   "BasePath": "_content/app-banking",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/obj/Debug/net7.0/scopedcss/projectbundle/app-banking.bundle.scp.css"
+    },
+    {
+      "Identity": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/.DS_Store",
+      "SourceId": "app-banking",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/",
+      "BasePath": "_content/app-banking",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/.DS_Store"
+    },
+    {
+      "Identity": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/assets/.DS_Store",
+      "SourceId": "app-banking",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/",
+      "BasePath": "_content/app-banking",
+      "RelativePath": "assets/.DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/assets/.DS_Store"
     },
     {
       "Identity": "/Users/maksimsracins/Library/Mobile Documents/com~apple~CloudDocs/01_Repository/application-bachelor/app-banking/wwwroot/css/site.css",
