@@ -1,22 +1,16 @@
 <nav class="navbar navbar-fixed-top border-bottom">
-    <a class="nav-link brand" href="/">@Config.CompanyName</a>
+    <a class="nav-link brand text-dark" asp-area="" asp-controller="Home" asp-action="Index">@Config.CompanyName</a>
     <ul class="nav justify-content-center">
         <li class="nav-item">
-            <a class="nav-link active" asp-area="" asp-controller="Dashboard" asp-action="Statistics">Dashboard</a>
+            <a class="nav-link active text-dark" asp-area="" asp-controller="Home" asp-action="UserProfile">User Profile</a>
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" asp-area="" asp-controller="Deposit" asp-action="Transfer">Deposit</a>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Contacts">Contacts</a>
         </li>
 
         <li class="nav-item">
-            <a class="nav-link" asp-area="" asp-controller="WithdrawList" asp-action="ShowWithdrawList">Withdraw
-                List</a>
+            <a class="nav-link text-dark" asp-area="" asp-controller="WithdrawList" asp-action="ShowWithdrawList">Login</a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" asp-area="" asp-controller="DepositList" asp-action="ShowDepositList">Deposit
-                List</a>
-        </li>
-
     </ul>
 </nav>

@@ -27,6 +27,16 @@ namespace app_banking.Controllers
             return View(model);
         }
 
+        public IActionResult UserProfile()
+        {
+            return View();
+        }
+
+        public IActionResult Contacts()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
